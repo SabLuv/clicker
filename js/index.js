@@ -3,7 +3,7 @@ let clickNode = document.querySelector(`#click`);
 let decorNode = document.querySelector(`#decor`);
 
 
-let count = 80;
+let count = 0;
 
 clickNode.addEventListener(`click`, function() {
     count++;
